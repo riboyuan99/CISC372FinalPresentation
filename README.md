@@ -1,12 +1,12 @@
 # CISC372 FinalPresentation
-# Introduction
+## Introduction
 
-# Environment setup
+## Environment setup
 
-# Execute the program
+## Execute the program
 
 
-# Maintainer
+## Maintainer
 Xinyi Sun(sunxinyi0501) - Performance Analysis.       
 
 Fanchao Meng(fanchaomeng) - OpenACC parallelization.      
