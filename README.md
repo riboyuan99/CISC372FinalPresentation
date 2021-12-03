@@ -38,7 +38,9 @@ nvc -acc -ta=multicore -Minfo=accel mm_acc.c -o mm_acc
 
 OpenMP:
 
-Serial:gcc  mm_s.c -fopenmp -o size512_serial_gcc   
+Serial: gcc  mm_s.c -fopenmp -o size512_serial_gcc   
+
+CPU: nvc code.c -mp -o codefile
 
 
 
