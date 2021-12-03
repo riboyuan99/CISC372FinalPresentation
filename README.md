@@ -1,4 +1,4 @@
-# CISC372 FinalPresentation
+# CISC372 Final Presentation
 ## Introduction
 This repositories contains:  
 - OpenMP C code that parallelize matrix multiplication.  
