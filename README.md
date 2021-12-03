@@ -16,7 +16,7 @@ Compiler:
 NVIDIA Visual Profiler:    
 - NVIDIA Nsight Systems(https://developer.nvidia.com/nsight-systems).   
 
-- NVIDIA Nsight Compute.   
+- NVIDIA Nsight Compute(https://developer.nvidia.com/nsight-compute)
 
 
 ## Installation
