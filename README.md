@@ -5,7 +5,7 @@
 
 Hardware:   
 
-Bridges2(https://www.psc.edu/resources/bridges-2/)
+- Bridges2(https://www.psc.edu/resources/bridges-2/)
 
 Compiler: 
 
