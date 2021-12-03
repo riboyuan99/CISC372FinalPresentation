@@ -27,7 +27,15 @@ NVIDIA Visual Profiler:
 
 ## Installation
 OpenMP:
+
 ![image](https://user-images.githubusercontent.com/50935437/144540666-d6a0b1e5-0518-4f72-bbec-5b68f0b7b726.png)
+
+OpenAcc:
+
+![image](https://user-images.githubusercontent.com/50935437/144540768-1530d9bd-5de6-419d-85de-10c273da3e97.png)
+
+
+
 
 
 
