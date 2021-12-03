@@ -34,6 +34,8 @@ OpenMP:
 
 OpenAcc:
 
+CPU:
+
 1.module load nvhpc/21.7
 
 2.. ![image](https://user-images.githubusercontent.com/50935437/144540768-1530d9bd-5de6-419d-85de-10c273da3e97.png)
