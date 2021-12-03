@@ -1,5 +1,11 @@
 # CISC372 FinalPresentation
 ## Introduction
+This repositories:  
+- OpenMP C code that parallelize matrix multiplication.  
+
+- OpenACC C code that parallelize matrix multiplication.    
+
+- Performance Analysis.  
 
 ## Requirements
 
