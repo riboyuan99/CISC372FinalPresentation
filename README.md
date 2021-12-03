@@ -11,7 +11,13 @@ Compiler:
 
 - To load nvhpc compiler: 'module load nvhpc/21.7'.     
   
-- To load gcc compiler: 'module load gcc/10.2'
+- To load gcc compiler: 'module load gcc/10.2'.   
+
+NVIDIA Visual Profiler:    
+- NVIDIA Nsight Systems(https://developer.nvidia.com/nsight-systems).   
+
+- NVIDIA Nsight Compute.   
+
 
 ## Installation
 
