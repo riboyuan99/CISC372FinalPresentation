@@ -26,21 +26,9 @@ NVIDIA Visual Profiler:
 
 
 ## Installation
-OpenACC:
-
-- GPU:
-
-nvc -acc -gpu=cc70 -Minfo=accel mm_acc.c -o mm_acc
-
-- CPU:
-
-nvc -acc -ta=multicore -Minfo=accel mm_acc.c -o mm_acc
-
 OpenMP:
+![image](https://user-images.githubusercontent.com/50935437/144540666-d6a0b1e5-0518-4f72-bbec-5b68f0b7b726.png)
 
-- CPU:    
-
- nvc mm_p_parallel_for.c -mp -o mm_p_parallel_for
 
 
 
