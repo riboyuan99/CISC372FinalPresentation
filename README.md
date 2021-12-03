@@ -1,7 +1,7 @@
 # CISC372 FinalPresentation
 ## Introduction
 
-## Environment setup
+## Requirements
 
 Hardware:   
 
@@ -12,10 +12,11 @@ Compiler:
 - To load nvhpc compiler: 'module load nvhpc/21.7'.     
   
 - To load gcc compiler: 'module load gcc/10.2'
-## Execute the program
+
+## Installation
 
 
-## Maintainer
+## Maintainers
 Xinyi Sun(sunxinyi0501) - Performance Analysis.       
 
 Fanchao Meng(fanchaomeng) - OpenACC parallelization.      
