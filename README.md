@@ -26,9 +26,9 @@ NVIDIA Visual Profiler:
 
 
 ## Installation(example)
-OpenMP(multicore):
+- OpenMP(multicore):
 
-For GCC:
+  - For GCC:
 
 1.module load gcc/10.2
 
