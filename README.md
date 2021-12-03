@@ -28,21 +28,34 @@ NVIDIA Visual Profiler:
 ## Installation
 OpenMP:
 
-1. module load gcc/10.2
+For Gcc:
 
-2. ![image](https://user-images.githubusercontent.com/50935437/144540666-d6a0b1e5-0518-4f72-bbec-5b68f0b7b726.png)
+1.module load gcc/10.2
 
-OpenAcc:
+2.gcc mm_s.c -fopenmp -o parallel_gcc
 
-CPU:
+For Nvc:
 
 1.module load nvhpc/21.7
 
-2.. ![image](https://user-images.githubusercontent.com/50935437/144540768-1530d9bd-5de6-419d-85de-10c273da3e97.png)
+2.nvc -acc -gpu=cc70 -Minfo=accel mm_p.c -o paralle_nvc
 
-GPU:
+OpenAcc:
 
-1. ![image](https://user-images.githubusercontent.com/50935437/144541198-695ebafd-e05c-468f-8f41-4c29c4e92fe3.png)
+CPUs:
+
+1.module load nvhpc/21.7
+
+2.nvc -acc -ta=multicore -Minfo=accel mm_acc.c -o mm_acc
+
+GPUs:
+
+1.module load nvhpc/21.7
+
+2.nvc -acc -gpu=cc70 -Minfo=accel mm_acc.c -o mm_acc
+
+
+
 
 
 
