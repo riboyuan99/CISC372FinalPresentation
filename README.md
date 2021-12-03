@@ -25,22 +25,22 @@ NVIDIA Visual Profiler:
 - NVIDIA Nsight Compute(https://developer.nvidia.com/nsight-compute)
 
 
-## Installation
-OpenMP:
+## Installation(example)
+OpenMP(multicore):
 
-For Gcc:
+For GCC:
 
 1.module load gcc/10.2
 
 2.gcc mm_s.c -fopenmp -o parallel_gcc
 
-For Nvc:
+For NVHPC(NVC):
 
 1.module load nvhpc/21.7
 
 2.nvc -acc -gpu=cc70 -Minfo=accel mm_p.c -o paralle_nvc
 
-OpenAcc:
+OpenACC:
 
 CPUs:
 
@@ -53,15 +53,6 @@ GPUs:
 1.module load nvhpc/21.7
 
 2.nvc -acc -gpu=cc70 -Minfo=accel mm_acc.c -o mm_acc
-
-
-
-
-
-
-
-
-
 
 
 ## Maintainers
