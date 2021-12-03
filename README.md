@@ -3,7 +3,9 @@
 
 ## Environment setup
 
-Hardware: Bridges2(https://www.psc.edu/resources/bridges-2/)
+Hardware:   
+
+Bridges2(https://www.psc.edu/resources/bridges-2/)
 
 Compiler: 
 
