@@ -30,29 +30,29 @@ NVIDIA Visual Profiler:
 
   - For GCC:
 
-1.module load gcc/10.2
+    1.module load gcc/10.2
 
-2.gcc mm_s.c -fopenmp -o parallel_gcc
+    2.gcc mm_s.c -fopenmp -o parallel_gcc
 
-For NVHPC(NVC):
+  - For NVHPC(NVC):
 
-1.module load nvhpc/21.7
+    1.module load nvhpc/21.7
 
-2.nvc -acc -gpu=cc70 -Minfo=accel mm_p.c -o paralle_nvc
+    2.nvc -acc -gpu=cc70 -Minfo=accel mm_p.c -o paralle_nvc
 
-OpenACC:
+- OpenACC:
 
-CPUs:
+  - CPUs:
 
-1.module load nvhpc/21.7
+    1.module load nvhpc/21.7
 
-2.nvc -acc -ta=multicore -Minfo=accel mm_acc.c -o mm_acc
+    2.nvc -acc -ta=multicore -Minfo=accel mm_acc.c -o mm_acc
 
-GPUs:
+  - GPUs:
 
-1.module load nvhpc/21.7
+    1.module load nvhpc/21.7
 
-2.nvc -acc -gpu=cc70 -Minfo=accel mm_acc.c -o mm_acc
+    2.nvc -acc -gpu=cc70 -Minfo=accel mm_acc.c -o mm_acc
 
 
 ## Maintainers
