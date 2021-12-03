@@ -28,11 +28,20 @@ NVIDIA Visual Profiler:
 ## Installation
 OpenMP:
 
-![image](https://user-images.githubusercontent.com/50935437/144540666-d6a0b1e5-0518-4f72-bbec-5b68f0b7b726.png)
+1. module load gcc/10.2
+
+2. ![image](https://user-images.githubusercontent.com/50935437/144540666-d6a0b1e5-0518-4f72-bbec-5b68f0b7b726.png)
 
 OpenAcc:
 
-![image](https://user-images.githubusercontent.com/50935437/144540768-1530d9bd-5de6-419d-85de-10c273da3e97.png)
+1.module load nvhpc/21.7
+
+2.. ![image](https://user-images.githubusercontent.com/50935437/144540768-1530d9bd-5de6-419d-85de-10c273da3e97.png)
+
+GPU:
+
+1. ![image](https://user-images.githubusercontent.com/50935437/144541198-695ebafd-e05c-468f-8f41-4c29c4e92fe3.png)
+
 
 
 
